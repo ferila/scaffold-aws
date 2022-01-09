@@ -11,7 +11,7 @@ jobs:
           python-version: 3.7
       - name: Install dependencies
         run: |
-          make install
+          make install-azure
       - name: Lint with Pylint
         run: |
           make lint
@@ -21,9 +21,3 @@ jobs:
       - name: Format code with Python black
         run: |
           make format
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
